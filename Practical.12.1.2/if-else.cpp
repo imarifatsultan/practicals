@@ -1,5 +1,9 @@
-#include <iostream>
+/*
+	12.1.2 Write a program for each if, if-else and else-if.
+*/
 
+
+#include <iostream>
 using namespace std;
 
 
