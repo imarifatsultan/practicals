@@ -1,4 +1,6 @@
-// 12.2.2 Write a C++ program that uses for loop.
+/*
+	12.2.2 Write a C++ program that uses for loop.
+*/
 
 
 #include <iostream>
@@ -18,9 +20,9 @@ cin >> num;
 cout << "Multiplication table for " << num << " is:" << endl;
 
     
-for (int i = 1; i <= 10; ++i) {
+for (int j = 1; j <= 10; ++j) {
         
-cout << num << " x " << i << " = " << num * i << endl;
+cout << num << " x " << j << " = " << num * j << endl;
     
 }
 
