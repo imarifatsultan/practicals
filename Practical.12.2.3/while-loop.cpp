@@ -1,4 +1,6 @@
-// 12.2.3 Write a C++ program that uses while loop.
+/*
+	12.2.3 Write a C++ program that uses while loop.
+*/
 
 #include <iostream>
 using namespace std;
@@ -23,10 +25,7 @@ cout << "Factorial is not defined for negative numbers." << endl;
 } 
 else {
         
-cout << endl << number << "! :> ";
-
-       
-        
+cout << endl << number << "! :> ";      
 int i = number;
         
 while (i > 1) {
