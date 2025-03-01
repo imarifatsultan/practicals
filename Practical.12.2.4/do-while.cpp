@@ -1,4 +1,6 @@
-// 12.2.4 Write a C++ program that uses do while loop.
+/*
+	12.2.4 Write a C++ program that uses do while loop.
+*/
 
 #include <iostream>
 using namespace std;
@@ -29,7 +31,7 @@ cin >> choice;
 } while (choice == 'y' || choice == 'Y');
 
     
-cout << "Thank you for using the program!" << endl;
+cout << "Thank you for using the program...!" << endl;
 
     return 0;
 }
