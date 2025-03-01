@@ -14,23 +14,27 @@ using namespace std;
 int main() {
    
    
-string animal[4];
+string fruits[4];
    
    
 for (int i = 0; i < 4; ++i){
        
-cout << "Animal name for index " << i << " : ";
+cout << "Fruit name for index " << i << " : ";
        
-getline(cin, animal[i]);
+getline(cin, fruits[i]);
    
 }
    
    
 cout << "\n\n[ ";
    
-for (int j = 0; j < 4; ++j){
+for (int i = 0; i < 4; ++i){
        
-cout << "\"" << animal[j] << "\"" << ",";
+	cout << "\"" << fruits[i] << "\"";
+	if (i < 3){
+		cout << ",";
+	}
+
    
 }
    
