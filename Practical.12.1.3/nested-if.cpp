@@ -1,4 +1,6 @@
-// 12.1.3 Write a program using nested if statement.
+/*
+	12.1.3 Write a program using nested if statement.
+*/
 
 
 #include <iostream>
