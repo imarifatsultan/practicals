@@ -6,41 +6,42 @@
 using namespace std;
 
 
-void Area_Circle(double p, double r);
-void Area_Triangle(double l, double b);
-void Area_Parallelogram(double s, double h);
+void areaOfCircle(double pi, double radius);
+void areaOfTriangle(double length, double breath);
+void areaOfParallelogram(double width, double height);
 
 int main() {
-    double r, l, b, h, s;
-    double p = 3.14;
+    double radius, length, breath, height, width;
+    double pi = 3.14;
     cout << "Enter the radius of circle: ";
-    cin >> r;
+    cin >> radius;
     cout << "Enter the length of Triangle: ";
-    cin >> l;
+    cin >> length;
     cout << "Enter the breath of Triangle: ";
-    cin >> b;
+    cin >> breath;
     cout << "Enter the height of parallelogram: ";
-    cin >> h;
+    cin >> height;
     cout << "Enter the base of Parallelogram: ";
-    cin >> s; 
-
-    Area_Circle(p, r);
-    Area_Triangle(l, b);
-    Area_Parallelogram(s, h);
+    cin >> width; 
+	
+	cout << "\n\n";
+    areaOfCircle(pi, radius);
+    areaOfTriangle(length, breath);
+    areaOfParallelogram(width, height);
 
     return 0;
 }
 
-void Area_Circle(double p, double r) {
-    cout << "The Area of the given Circle is: ";
-    cout << p * (r * r) << endl;
+void areaOfCircle(double pi, double radius) {
+    cout << "The area of the Circle is : ";
+    cout << pi * (radius * radius) << endl;
 }
 
-void Area_Triangle(double l, double b) {
-    cout << "The area of triangle : ";
-    cout << (1.0 / 2.0) * l * b << endl;
+void areaOfTriangle(double length, double breath) {
+    cout << "The area of triangle is : ";
+    cout << (1.0 / 2.0) * length * breath << endl;
 }
 
-void Area_Parallelogram(double s, double h) {
-    cout << "The area of Parallelogram : " << (s * h) << endl;
+void areaOfParallelogram(double width, double height) {
+    cout << "The area of Parallelogram is : " << (width * height) << endl;
 }
