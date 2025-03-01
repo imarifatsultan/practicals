@@ -1,4 +1,6 @@
-// 12.1.5 Write a program using switch statement.
+/*
+	12.1.5 Write a program using switch statement.
+*/
 
 #include <iostream>
 
