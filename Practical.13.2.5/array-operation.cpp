@@ -59,8 +59,7 @@ int main() {
     int matrix1[MAX][MAX], matrix2[MAX][MAX], result[MAX][MAX];
     int rows, cols;
 
-    cout << "Select order of Matrix (max 4x4): \n\n";
-    cout << "Enter number of rows : ";
+    cout << "Select order of Matrix (max 4x4): \n\n" + "Enter number of rows : ";
     cin >> rows;
     cout << "Enter number of columns : ";
     cin >> cols;
