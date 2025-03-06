@@ -5,14 +5,14 @@
 
 # 📘 Computer Science Practicals for the year 2025
 
-This repository contains solutions to various C++ practical tasks assigned during the course year 2025 under the AKUEB Examiination.
+This repository contains solutions to various C++ practical tasks assigned during the course year 2025 under the AKUEB Examination.
 
 ## 📌 Practicals Details
 
 - **Subject:** Computer Science
 - **Instructor:** Wali Azam
 - **Semester:** Intermediates Part-II
-- **Topics Covered:** if-else/Switch statement, Loops, Arrays, Classes and Objects,  Functions, Pointers
+- **Topics Covered:** { if-else/Switch statement, Loops, Arrays, Classes and Objects,  Functions, Pointers }
 
 ## 📂 Repository Structure
 ┌──(practicals/)  <br>
