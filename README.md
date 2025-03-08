@@ -3,7 +3,7 @@
 ![Last Commit](https://img.shields.io/github/last-commit/imarifatsultan/practicals)
 ![GitHub Stars](https://img.shields.io/github/stars/imarifatsultan/practicals?style=social)
 
-# 📘 AKUEB Computer Science Practicals - C++ Programming Tasks (2025)
+# 📘 AKUEB Computer Science Practicals - Grade 12 (2025)
 
 This repository contains fully implemented C++ solutions for AKUEB (Aga Khan University Examination Board) Computer Science Practical Assignments for the year 2025. These practicals are part of the Intermediate Part-II (Grade 12) Computer Science curriculum, designed to strengthen students’ understanding of core C++ programming concepts through hands-on coding exercises.
 
