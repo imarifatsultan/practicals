@@ -29,10 +29,10 @@ This means Git is installed, and you can proceed with cloning the repository. It
 ❌ If Git is Not Installed
 Follow the steps below to install Git on your system:
 
-🖥️ Windows
-Download Git for Windows from [here](https://git-scm.com/downloads/win).
-Run the installer and follow the setup instructions.
-Restart your terminal and verify installation with:
+🖥️ Windows <br>
+-  Download Git for Windows from [here](https://git-scm.com/downloads/win).<br>
+-  Run the installer and follow the setup instructions. <br>
+-  Restart your terminal and verify installation with:
 ```sh
 git --version
 ```
